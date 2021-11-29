@@ -16,7 +16,7 @@ namespace TransferLearningTF
         static readonly string _imagesFolder = Path.Combine(_assetsPath, "images");
         static readonly string _trainTagsTsv = Path.Combine(_imagesFolder, "tags.tsv");
         static readonly string _testTagsTsv = Path.Combine(_imagesFolder, "test-tags.tsv");
-        static readonly string _predictSingleImage = Path.Combine(_imagesFolder, "toaster3.jpg");
+        static readonly string _predictSingleImage = Path.Combine(_imagesFolder, "maling5.jpg");
         static readonly string _inceptionTensorFlowModel = Path.Combine(_assetsPath, "inception", "tensorflow_inception_graph.pb");
         // </SnippetDeclareGlobalVariables>
 
